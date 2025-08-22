@@ -3,6 +3,7 @@ import org.junit.Test;
 import calculatorPack.Calculator;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 
 public class CalculatorTest {
@@ -29,6 +30,17 @@ public class CalculatorTest {
     public void testThatCalculatorCanMultiply(){
         int result = Calculator.multipply(10,2);
         assertEquals(20, result);
+    }
+    @Test
+    public void testThatCalculatorCanDivide(){
+        int result = Calculator.divide(10, 2);
+        assertEquals(5, result);
+    }
+
+    @Test
+    public void testThatCalculator_returnsTrueIfNumberIsEven(){
+        boolean result = Calculator.evenNumber(4);
+        assertTrue(result);
     }
 
 }
