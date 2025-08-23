@@ -3,9 +3,9 @@ package PracticeFolder;
 public class FunctionPractice {
     public static void main(String[] args) {
 
-        taskTen();
+        taskOne();
     }
-    public static void taskTen(){
+    public static void taskOne(){
         for(char count = 'a'; count <= 'z'; count++){
             System.out.print(count + " ");
         }
