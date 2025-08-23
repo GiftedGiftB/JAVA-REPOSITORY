@@ -1,4 +1,4 @@
-package calculatorPack;
+package PracticeFolder.calculatorPack;
 
 public class Calculator {
 

@@ -1,6 +1,6 @@
 package calculatorTest;
 import org.junit.Test;
-import calculatorPack.Calculator;
+import PracticeFolder.calculatorPack.Calculator;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
