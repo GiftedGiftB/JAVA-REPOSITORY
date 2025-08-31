@@ -1,7 +1,8 @@
 package PracticeFolder;
-
+import java.util.Scanner;
 public class FunctionPractice {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
         taskOne();System.out.println();
         taskTwo();System.out.println();
@@ -10,6 +11,15 @@ public class FunctionPractice {
         taskFive();System.out.println();
         System.out.print(taskSix()); System.out.println();
         System.out.print("Sum of first 50 natural numbers are: " + taskSeven()); System.out.println();
+        System.out.print(taskEight());  System.out.println();
+
+        System.out.print("Enter number: ");
+        int number = input.nextInt();
+        multiplicationtable(number);
+
+        System.out.print("Enter word: ");
+        String word = input.nextLine();
+        charactersInString(word);
     }
     public static void taskOne(){
         for(char count = 'a'; count <= 'z'; count++){
@@ -58,4 +68,23 @@ public class FunctionPractice {
         }
         return sum;
     }
+    public static int taskEight() {
+        int product = 1;
+        for (int count = 1; count <= 10; count++) {
+            product *= count;
+        }
+        return product;
+    }
+    public static void multiplicationtable(int number){
+        for(int count = 1; count <= 12; count++) {
+            System.out.println(number + " * " + count + " = " + number * count);
+        }
+    }
+    public static void charactersInString(String word){
+        for(char l:word.toCharArray()) {
+            System.out.println(l);
+        }
+    }
+
+
 }
