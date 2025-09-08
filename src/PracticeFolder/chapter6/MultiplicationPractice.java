@@ -12,12 +12,13 @@ public class MultiplicationPractice {
     }
 
     private static void askQuestion() {
+        Scanner random = null;
         int num1 = random.nextInt(9) + 1;
         int num2 = random.nextInt(9) + 1;
 
         int result = num1 * num2;
         int userInput;
-    }
+
     System.out.print("what is %d times %d? ", num1,num2);
     userInput = Scanner.nextInt();
 
@@ -28,7 +29,7 @@ public class MultiplicationPractice {
     else{
         System.out.println("Incorrect.");
     }
-
+    }
 
 }
 
