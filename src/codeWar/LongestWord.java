@@ -5,7 +5,7 @@ public class LongestWord {
     public static void main(String[] args) {
         String sentence = "The quick brown fox jumped";
         String result = findLongestInWordSentence(sentence);
-        System.out.println("The longest word: " + result);
+        System.out.println("The longest word is: " + result);
     }
 
     public static String findLongestInWordSentence(String sentence) {
