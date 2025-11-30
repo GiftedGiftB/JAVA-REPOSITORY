@@ -1,4 +1,4 @@
-package PracticeFolder.chapter6;
+package PracticeFolder.Revise.ControlFlow;
 
 public class SwitchCase {
     public static void main(String[] args) {
