@@ -29,6 +29,10 @@ public class SwitchCase {
             System.out.print("Saturday");
             break;
 
+        case 7:
+            System.out.print("Sunday");
+            break;
+
         default:
             System.out.print("Invalid");
         }
