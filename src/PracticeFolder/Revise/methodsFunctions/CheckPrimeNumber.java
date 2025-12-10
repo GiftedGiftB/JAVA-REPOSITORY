@@ -4,8 +4,9 @@ public class CheckPrimeNumber {
     public static void main(String[] args) {
 
         int numberToCheck = 20;
+        boolean result = primeNumber(numberToCheck);
 
-        if( primeNumber(numberToCheck)){
+        if(result == true){
             System.out.println(numberToCheck + " is a prime number");
         }
         else{
