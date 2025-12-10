@@ -6,7 +6,7 @@ public class CheckPrimeNumber {
         int numberToCheck = 20;
         boolean result = primeNumber(numberToCheck);
 
-        if(result){
+        if(result == true){
             System.out.println(numberToCheck + " is a prime number");
         }
         else{
